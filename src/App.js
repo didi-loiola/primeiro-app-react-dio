@@ -1,11 +1,13 @@
+import Item from "./components/item"
+
 const App = () => {
   return (
     <>
     <h1>Minha primeira aplicação com react</h1>
     <ul>
-      
-      <li>Item 2</li>
-      <li>Item 3</li>
+      <Item>Item 1</Item>
+      <Item>Item 2</Item>
+      <Item>Item 3</Item>
     </ul>
     </>
   )
